@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { MonthSummary, Language } from '../types';
+import { MonthSummary, Language } from './types';
 
 interface SummaryProps {
   summary: MonthSummary & { daysInMonth?: number };
