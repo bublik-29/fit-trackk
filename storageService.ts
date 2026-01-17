@@ -1,5 +1,4 @@
-
-import { ProgressData } from '../types';
+import { ProgressData } from './types';
 
 const STORAGE_KEY = 'fittrack_progress_v1';
 
