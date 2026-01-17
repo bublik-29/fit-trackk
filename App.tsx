@@ -1,11 +1,10 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { ProgressData, MonthSummary, WorkoutEntry, BlockStats, Language, ExerciseSet } from './types';
-import { saveProgress, loadProgress } from './services/storageService';
-import CalendarHeader from './components/CalendarHeader';
-import DayCell from './components/DayCell';
-import WorkoutModal from './components/WorkoutModal';
-import Summary from './components/Summary';
+import { saveProgress, loadProgress } from './storageService';
+import CalendarHeader from './CalendarHeader';
+import DayCell from './DayCell';
+import WorkoutModal from './WorkoutModal';
+import Summary from './Summary';
 
 const translations = {
   en: {
