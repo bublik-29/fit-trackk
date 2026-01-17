@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import { BlockStats, Language, ExerciseSet, WorkoutEntry } from '../types';
+import { BlockStats, Language, ExerciseSet, WorkoutEntry } from './types';
 
 interface WorkoutModalProps {
   date: Date;
